@@ -1,1 +1,41 @@
 /* Add CSS styling here */
+
+nav a {
+    text-decoration: none;
+}
+
+.navBar {
+    border: 1px solid red;
+    display: flex;
+}
+
+.container {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container img {
+    width: 50%;
+}
+
+.photoSection {
+    background-color: lightcoral;
+}
+
+.photoSection {
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photoSection div {
+    width: 25%;
+}
+
+.photoSection div img {
+    width: 90%;
+    border: 1px solid grey;
+  
+}
