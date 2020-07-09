@@ -1,5 +1,10 @@
 /* Add CSS styling here */
 
+
+header {
+    background-color: rosybrown;
+    padding: 3% 0;
+}
 nav a {
     text-decoration: none;
 }
@@ -15,8 +20,20 @@ nav a {
     justify-content: space-evenly;
 }
 
+.container div {
+    width: 20%;
+}
+
 .container img {
     width: 50%;
+}
+
+.container button {
+    padding: 2%;
+}
+
+.container a {
+    text-decoration: none;
 }
 
 .photoSection {
@@ -38,4 +55,24 @@ nav a {
     width: 90%;
     border: 1px solid grey;
   
+}
+
+.photoSection div h3 {
+    text-align: center;
+}
+
+/* .footer {
+    background-color: teal;
+} */
+
+footer {
+    padding: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: teal;
+}
+
+button {
+    padding: 15%;
 }
