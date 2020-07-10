@@ -1,31 +1,90 @@
 /* Add CSS styling here */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1, h2, h3 {
+    font-family: 'Life Savers', cursive;
+}
+
+p, a {
+    font-family: 'Balsamiq Sans', cursive;
+}
 
 header {
     background-color: rosybrown;
-    padding: 3% 0;
+    padding: 3% 0 1%;
 }
-nav a {
+
+h1 {
+    /* border: 1px solid white; */
+    width: 30%;
+    text-align: center;
+    font-size: 400%;
+    color: white;
+    margin-left: 3%;
+}
+
+.navBar nav a {
     text-decoration: none;
+    color: white;
+    /* border: 1px solid pink; */
+}
+
+.navBar nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    /* border: 2px solid green; */
 }
 
 .navBar {
-    border: 1px solid red;
-    display: flex;
+    /* border: 1px solid red; */
+    width: 25%;
+    text-align: center;
+    margin: 3% 0 0 7%;
 }
+
 
 .container {
     border: 1px solid blue;
     display: flex;
     justify-content: space-evenly;
+    margin: 1%;
 }
 
 .container div {
-    width: 20%;
+    border: 1px solid red;
+    width: 50%;
+    margin: 1%;
+    text-align: center;
 }
 
 .container img {
+    border: 1px solid yellow;
     width: 50%;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .container button {
@@ -90,8 +149,6 @@ footer .contact {
 .icons div {
     border: 1px solid white;
     width: 10%;
-    padding-right: 0;
-
 }
 
 .icons img {
