@@ -21,6 +21,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+
 h1, h2, h3 {
     font-family: 'Life Savers', cursive;
 }
@@ -67,24 +72,23 @@ nav {
 
 
 .container {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-evenly;
     margin: 1%;
 }
 
 .container div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 48%;
     margin: 1%;
     text-align: center;
 }
 
 .container img {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 50%;
-    /* margin: 0;
-    padding: 0; */
+
 }
 
 .container button {
@@ -100,7 +104,7 @@ nav {
 }
 
 .photoSection {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -147,7 +151,7 @@ footer .contact {
 }
 
 .icons div {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 10%;
 }
 
@@ -195,5 +199,7 @@ header nav{
 }
 
 @media(max-width: 500px) {
-    
+    header h1 {
+        width: 25%;
+    }
 }
