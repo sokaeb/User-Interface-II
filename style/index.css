@@ -201,5 +201,13 @@ header nav{
 @media(max-width: 500px) {
     header h1 {
         width: 25%;
+    }   
+
+@media(max-width: 360px) {
+ .icons img {
+     width: 100%;
+ }
     }
+}
+
 }
