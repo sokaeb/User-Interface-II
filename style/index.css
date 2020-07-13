@@ -221,7 +221,8 @@ p, h3 {
     margin: 5%;  
 }
 .icons div {
-    margin: 2%;  
+    margin: 2%;
+    width: 30%;  
 }
 .icons div a {
     display: flex;
@@ -243,7 +244,7 @@ p, h3 {
  }
  .photoSection div {
     width: 100%;
-  
+    text-align: center;
 }
 
 
