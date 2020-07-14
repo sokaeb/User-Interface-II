@@ -1,5 +1,5 @@
 /* Add CSS styling here */
-/* css reset*/
+/* css reset start */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,8 +19,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} /* css reset end */
 
+/* general style rules start */
 html {
     font-size: 62.5%;
 }
@@ -31,77 +32,85 @@ html {
 }
 
 h1, h2, h3 {
-    font-family: 'Life Savers', cursive;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 p, a {
-    font-family: 'Balsamiq Sans', cursive;
-}
+    font-family: 'DM Serif Display', serif;
+} /* general style rules end */
 
+/* HEADER styles start */
 header {
     background-color: rosybrown;
-    padding: 3% 0 1%;
+    padding: 3% 0 0;
 }
 
 h1 {
     /* border: 1px solid white; */
-    width: 30%;
     text-align: center;
-    font-size: 400%;
+    font-size: 6rem;
     color: white;
-    margin-left: 3%;
-}
-
-.navBar nav a {
-    text-decoration: none;
-    color: white;
-    /* border: 1px solid pink; */
 }
 
 .navBar nav {
+     /* border: 1px solid brown; */
     display: flex;
     justify-content: space-evenly;
+    margin: 2% 0 0;
 }
 
-nav {
-    /* border: 2px solid green; */
+.navBar nav a {
+    /* border: 1px solid pink; */
+    text-decoration: none;
+    color: white; 
+    padding: 1%;
+    font-size: 2.5rem;
 }
 
-.navBar {
-    /* border: 1px solid red; */
-    width: 25%;
-    text-align: center;
-    margin: 3% 0 0 7%;
-}
+.navBar nav a:hover {
+    color: purple;
+} /* HEADER styles end */
 
-
+/* TOP section styles start */
 .container {
     /* border: 1px solid blue; */
     display: flex;
     justify-content: space-evenly;
-    margin: 1%;
+    padding: 3%;
 }
 
 .container div {
     /* border: 1px solid red; */
-    width: 48%;
-    margin: 1%;
     text-align: center;
+    padding: 5%;
 }
 
-.container img {
-    /* border: 1px solid yellow; */
-    width: 50%;
+.container div h2 {
+    font-size: 4rem;
+}
 
+.container div img {
+    border: 1px solid black;
+    border-radius: 10%;
 }
 
 .container button {
-    padding: 2%;
+    padding: 3%;
+    border-radius: 10em;
+    margin: 10%;
+    background-color: rosybrown;
+    border: 2px solid purple;
 }
 
 .container a {
     text-decoration: none;
+    color: white;
 }
+
+.container p {
+    /* border: 1px solid black; */
+    font-size: 1.5rem;
+} /* TOP section styles end */
 
 .photoSection {
     background-color: lightcoral;
@@ -191,7 +200,7 @@ h1 {
     align-items: center;
 }
 .container img {
-    border-radius: 50%;
+    /* border-radius: 75%; */
 }
 h2 {
     margin: 5%;
